@@ -103,7 +103,7 @@ sync_repo() {
 
     msg "Trying to update $repo_name"
 
-	rm -rf $repo_path
+    rm -rf $repo_path
     if [ ! -e "$repo_path" ]; then
         mkdir -p "$repo_path"
         git clone -b "$repo_branch" "$repo_uri" "$repo_path"
