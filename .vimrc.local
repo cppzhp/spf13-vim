@@ -1,0 +1,12 @@
+set encoding=utf-8
+
+set mouse=v
+set whichwrap=b,s " Only Backspace and space wrap
+
+set listchars=tab:>.,trail:.,extends:\#,nbsp:. " Highlight problematic whitespace
+
+autocmd FileType c,cpp setlocal tabstop=2 shiftwidth=2 softtabstop=2 colorcolumn=81
+hi ColorColumn ctermbg=lightgray
+
+let g:airline_left_sep='>'  " Slightly fancier than '>'
+let g:airline_right_sep='<' " Slightly fancier than '<'
