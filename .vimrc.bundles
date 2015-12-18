@@ -122,6 +122,7 @@
             endif
             Bundle 'powerline/fonts'
             Bundle 'bling/vim-bufferline'
+            Bundle 'vim-scripts/minibufexplorerpp'
             Bundle 'easymotion/vim-easymotion'
             Bundle 'jistr/vim-nerdtree-tabs'
             Bundle 'flazz/vim-colorschemes'

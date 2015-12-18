@@ -10,3 +10,15 @@ hi ColorColumn ctermbg=lightgray
 
 let g:airline_left_sep='>'  " Slightly fancier than '>'
 let g:airline_right_sep='<' " Slightly fancier than '<'
+let g:airline#extensions#bufferline#enabled = 0
+
+let g:bufferline_echo = 0
+
+let g:miniBufExplMapWindowNavVim    = 1
+let g:miniBufExplMapWindowNavArrows = 1
+let g:miniBufExplMapCTabSwitchBufs  = 1
+let g:miniBufExplModSelTarget       = 1
+let g:miniBufExplorerMoreThanOne    = 2
+let g:miniBufExplSplitBelow         = 0
+hi MBENormal        ctermbg=black ctermfg=lightgreen
+hi MBEVisibleNormal ctermbg=black ctermfg=LightYellow cterm=bold
