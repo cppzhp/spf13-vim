@@ -24,3 +24,4 @@ hi MBENormal        ctermbg=black ctermfg=lightgreen
 hi MBEVisibleNormal ctermbg=black ctermfg=LightYellow cterm=bold
 
 let g:tagbar_autofocus = 1
+let g:tagbar_sort = 0
