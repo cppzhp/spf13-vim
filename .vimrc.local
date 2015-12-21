@@ -25,3 +25,5 @@ hi MBEVisibleNormal ctermbg=black ctermfg=LightYellow cterm=bold
 
 let g:tagbar_autofocus = 1
 let g:tagbar_sort = 0
+
+let g:indent_guides_guide_size = 0
