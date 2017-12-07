@@ -5,8 +5,8 @@ set whichwrap=b,s " Only Backspace and space wrap
 
 set listchars=tab:>.,trail:.,extends:\#,nbsp:. " Highlight problematic whitespace
 
-autocmd FileType c,cpp setlocal tabstop=2 shiftwidth=2 softtabstop=2 colorcolumn=81
-hi ColorColumn ctermbg=lightgray
+autocmd FileType c,cpp setlocal tabstop=4 shiftwidth=4 softtabstop=4 colorcolumn=111
+hi ColorColumn ctermbg=lightblue
 
 let g:airline_left_sep='>'  " Slightly fancier than '>'
 let g:airline_right_sep='<' " Slightly fancier than '<'
